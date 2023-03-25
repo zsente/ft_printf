@@ -1,16 +1,16 @@
 # **************************************************************************** #
 #                                                                              #
 #                                                         :::      ::::::::    #
-#    makefile                                           :+:      :+:    :+:    #
+#    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
 #    By: zoesente <zoesente@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/24 15:29:02 by zoesente          #+#    #+#              #
-#    Updated: 2023/01/24 15:55:00 by zoesente         ###   ########.fr        #
+#    Updated: 2023/03/25 13:54:28 by zoesente         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-SRC 		= ft_printf.c
+SRC 		= ft_printf.c ft_printf_hex_ptr.c ft_printf_nb.c ft_printf_str.c
 
 OBJ 		= $(SRC:.c=.o)
 
